@@ -83,8 +83,6 @@ paths:
           description: 'Unauthorized'
           content:
             application/json:
-              schema:
-                $ref: '#/components/schemas/users'
               example:
                 status: failure
         500:
